@@ -1,3 +1,5 @@
+package com.example.clases;
+
 public class Velocista extends Ciclista {
  
     private double potenciaPromedio;        // vatios

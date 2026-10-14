@@ -1,4 +1,6 @@
 
+package com.example.clases;
+
 public abstract class Ciclista {
  
     private int identificador;
