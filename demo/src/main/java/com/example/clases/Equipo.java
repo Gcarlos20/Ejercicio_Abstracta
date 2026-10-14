@@ -16,7 +16,7 @@ public class Equipo {
         this.ciclistas = new ArrayList<>();
     }
  
-    // ----- Métodos protegidos: get y set de cada atributo -----
+    // Métodos protegidos get y set de cada atributo 
  
     protected String getNombreEquipo() {
         return nombreEquipo;
@@ -42,14 +42,14 @@ public class Equipo {
         Equipo.tiempoTotalEquipo = tiempoTotalEquipo;
     }
  
-    // ----- Operaciones del equipo -----
+    //  Operaciones del equipo 
  
     /** Añade un ciclista al equipo. */
     public void añadirCiclista(Ciclista ciclista) {
         ciclistas.add(ciclista);
     }
  
-    /** Suma los tiempos de carrera de todos los ciclistas y actualiza el atributo estático. */
+    // Suma los tiempos de carrera de todos los ciclistas y actualiza el atributo estático.
     public int calcularTiempoTotal() {
         int total = 0;
         for (Ciclista c : ciclistas) {
@@ -59,7 +59,7 @@ public class Equipo {
         return total;
     }
  
-    /** Imprime los datos del equipo en pantalla. */
+    // Imprime los datos del equipo en pantalla. 
     public void imprimirDatosEquipo() {
         System.out.println("===== Equipo =====");
         System.out.println("Nombre: " + nombreEquipo);
@@ -68,19 +68,19 @@ public class Equipo {
         System.out.println("Cantidad de ciclistas: " + ciclistas.size());
     }
  
-    /** Lista los nombres de todos los ciclistas del equipo. */
+    // Lista los nombres de todos los ciclistas del equipo. 
     public void listarNombresCiclistas() {
         System.out.println("Ciclistas del equipo " + nombreEquipo + ":");
         if (ciclistas.isEmpty()) {
             System.out.println("  (el equipo no tiene ciclistas)");
             return;
         }
-        for (Ciclista c : ciclistas) {
+        for (Ciclista c : ciclistas) { // recorre la lista de cada ciclista y llama eel metodo pa imprimir su nombre 
             System.out.println("  - " + c.getNombre());
         }
     }
  
-    /** Dado un identificador, imprime los datos del ciclista o un mensaje si no existe. */
+    //Dado un identificador, imprime los datos del ciclista o un mensaje si no existe. 
     public void imprimirDatosCiclistaPorId(int id) {
         for (Ciclista c : ciclistas) {
             if (c.getIdentificador() == id) {

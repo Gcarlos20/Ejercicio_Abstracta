@@ -37,10 +37,10 @@ public abstract class Ciclista {
         this.tiempoAcumulado = tiempoAcumulado;
     }
  
-    /** Devuelve "Es un xxx", donde xxx es la clase a la que pertenece. */
+    // Devuelve "Es un xxx", donde xxx es la clase a la que pertenece. 
     public abstract String imprimirTipo();
  
-    /** Imprime los datos comunes a todos los ciclistas. */
+    //Imprime los datos comunes a todos los ciclistas. 
     public void imprimirDatos() {
         System.out.println("Identificador: " + identificador);
         System.out.println("Nombre: " + nombre);
