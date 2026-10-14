@@ -1,3 +1,5 @@
+package com.example.clases;
+
 public class Contrarrelojista extends Ciclista {
  
     private double velocidadMaxima; // km/h

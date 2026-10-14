@@ -1,3 +1,5 @@
+package com.example.clases;
+
 public class Escalador extends Ciclista {
  
     private float aceleracionPromedio; // m/s2

@@ -1,6 +1,8 @@
+package com.example.clases;
+
 import java.util.ArrayList;
 import java.util.List;
- 
+
 public class Equipo {
  
     private String nombreEquipo;
