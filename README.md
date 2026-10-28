@@ -1,3 +1,5 @@
--GIAN CARLOS NUNEZ QUINTERO
--JUAN SEBASTIAN DIAZ
---HEIDY VALENTINA AVENDANO
+## Integrantes
+
+* Gian Carlos Núñez Quintero
+* Juan Sebastián Díaz
+* Heidy Valentina Avendaño
